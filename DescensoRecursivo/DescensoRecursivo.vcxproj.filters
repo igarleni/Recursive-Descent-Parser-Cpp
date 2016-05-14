@@ -18,6 +18,9 @@
     <ClCompile Include="recursivedescent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Symbtab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\analizadorFLEX.l">
@@ -31,6 +34,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="recursivedescent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbtab.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

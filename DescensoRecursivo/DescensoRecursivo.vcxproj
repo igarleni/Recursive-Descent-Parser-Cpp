@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="recursivedescent.cpp" />
+    <ClCompile Include="Symbtab.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\analizadorFLEX.l" />
@@ -21,6 +22,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="recursivedescent.h" />
+    <ClInclude Include="Symbtab.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AD3C177C-043E-4013-8B06-2742B9721A21}</ProjectGuid>
