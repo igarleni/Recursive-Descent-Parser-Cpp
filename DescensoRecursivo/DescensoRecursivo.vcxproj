@@ -18,7 +18,9 @@
     <None Include="..\analizadorFLEX.l" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\CodigoPrueba.txt" />
+    <Text Include="prueba.txt">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="recursivedescent.h" />

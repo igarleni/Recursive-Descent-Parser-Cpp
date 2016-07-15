@@ -28,7 +28,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\CodigoPrueba.txt">
+    <Text Include="prueba.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
